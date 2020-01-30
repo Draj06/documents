@@ -26,6 +26,7 @@ jobs:
       working-directory: website
       run: yarn
     - name: Build
+      working-directory: website
       run: yarn build
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@3.2.1
