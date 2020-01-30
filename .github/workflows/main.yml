@@ -23,15 +23,18 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    
+        
+    - name: Path check
+      run: ls
+        
     - name: Installation
       working-directory: website
       run: yarn
     
     - name: Build
       working-directory: website
-      run: yarn build
- 
+      run: yarn build && ls
+      
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2
       env:
@@ -39,4 +42,4 @@ jobs:
         PERSONAL_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: ../documents/website/build
+        PUBLISH_DIR: '../documents/website/build'
