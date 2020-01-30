@@ -23,8 +23,10 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: Installation
+      working-directory: website
       run: yarn
     - name: Docusaurus publish
+      working-directory: website
       run: yarn run publish-gh-pages
       env:
         CI: true
