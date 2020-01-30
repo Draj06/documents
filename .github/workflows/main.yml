@@ -39,4 +39,4 @@ jobs:
         PERSONAL_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: documents/website/build
+        PUBLISH_DIR: ../documents/website/build
