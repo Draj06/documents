@@ -24,9 +24,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: Installation
       run: yarn
-    - name: Docusaurus 1 Build
-      run: yarn build:v1
-    - name: Docusaurus 2 Build
-      run: yarn build:v2
+    - name: Docusaurus publish
+      run: yarn run publish-gh-pages
       env:
         CI: true
