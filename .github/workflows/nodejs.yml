@@ -29,4 +29,5 @@ jobs:
       working-directory: website
       run: yarn run publish-gh-pages
       env:
+        GIT_USER: Wiznet
         CI: true
