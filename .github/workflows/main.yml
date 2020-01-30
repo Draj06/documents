@@ -42,7 +42,10 @@ jobs:
         PERSONAL_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: '../documents/website/build'
+        PUBLISH_DIR: 'website/build'
         
     - name: Path check 2
-      run: ls
+      run: |
+        ls -a
+        cd dockerfile
+        ls -a
