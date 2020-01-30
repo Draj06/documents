@@ -29,7 +29,6 @@ jobs:
       working-directory: website
       run: yarn run publish-gh-pages
       env:
-        GIT_USER: Wiznet
         USE_SSH: true
         KEY: ${{ secrets.SSH_DEPLOYMENT_KEY }}
         CI: true
