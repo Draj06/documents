@@ -24,9 +24,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         
-    - name: Path check
-      run: ls
-        
     - name: Installation
       working-directory: website
       run: yarn
@@ -42,10 +39,4 @@ jobs:
         PERSONAL_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: 'website/build'
-        
-    - name: Path check 2
-      run: |
-        ls -a
-        cd dockerfile
-        ls -a
+        PUBLISH_DIR: 'website/build/documents'
