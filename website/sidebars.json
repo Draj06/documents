@@ -2,15 +2,11 @@
 {
   "docs": {
     "PRODUCTS": [
-      {
-        "type": "subcategory",
-        "label": "subcategory 1",
-        "ids": [
       "doc1",
       "doc12"
-    ]
-      },
-     ],
+    ],
+     
+    
     "Open Source Hardware": [
       "doc2"
       
