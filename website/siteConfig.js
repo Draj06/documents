@@ -21,8 +21,8 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Test WIZnet Document System', // Title for your website.
-  tagline: 'A WIZnet Document System website for testing',
+  title: 'Wiznet India', // Title for your website.
+  tagline: 'Documentation',
   url: 'https://Wiznet.github.io', // Your website URL
   baseUrl: '/documents/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -54,8 +54,8 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#263544',
-    secondaryColor: '#1a252f',
+    primaryColor: '#EE0B20',
+    secondaryColor: '#131212',
   },
 
   /* Custom fonts for website */
@@ -73,7 +73,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} wiznet india`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
