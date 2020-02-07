@@ -6,9 +6,21 @@
       {
         "type": "subcategory",
         "label": "my example subcategory",
-        "w7500": ["doc12"]
+        "w7500": ["doc12",
+                  ]
+                  
       },
+       {
+        "type": "subcategory",
+        "label": "my example subcategory",
+        "w7500": ["doc12",
+                  
+              ]
+      },
+      "even-more-examples",
+     
       ],
+      
       
     "Open Source Hardware": ["doc2"],
     "VAR Products": ["doc3"],
