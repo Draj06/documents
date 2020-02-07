@@ -42,16 +42,16 @@ const siteConfig = {
     {doc: 'doc4', label: 'API'},
     {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
-    //{href: 'https://github.com/Wiznet/documents', label: 'GitHub'},
+    {href: 'https://github.com/Wiznet/documents', label: 'GitHub'},
   ],
 
   // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'website/static/img/wiznet-logo.ico',
-  footerIcon: 'website/static/img/wiznet-logo.ico',
-  favicon: 'website/static/img/wiznet-logo.ico',
+  headerIcon: '../website/static/img/wiznet-logo.ico',
+  footerIcon: '../website/static/img/wiznet-logo.ico',
+  favicon: '../website/static/img/wiznet-logo.ico',
 
   /* Colors for website */
   colors: {
