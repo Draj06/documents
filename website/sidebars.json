@@ -1,10 +1,14 @@
+  
 {
   "docs": {
-    "Docusaurus": ["doc1","doc9"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
-  },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
+    "PRODUCTS": [
+      "doc1"
+     
+     
+    ],
+    "Open Source Hardware": ["doc2"],
+    "VAR Products": ["doc3"],
+    "Application Reference":["doc10"]
   }
+  
 }
