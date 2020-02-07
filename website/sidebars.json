@@ -3,23 +3,9 @@
   "docs": {
     "PRODUCTS": [
          "doc1",
-      {
-        "type": "subcategory",
-        "label": "my example subcategory",
-        "w7500": ["doc12",
-                  ]
-                  
-      },
-       {
-        "type": "subcategory",
-        "label": "my example subcategory",
-        "w7500": ["doc12",
-                  
-              ]
-      },
-      "even-more-examples",
-     
-      ],
+         "doc12"
+      ]
+      
       
       
     "Open Source Hardware": ["doc2"],
