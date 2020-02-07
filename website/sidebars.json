@@ -2,13 +2,13 @@
 {
   "docs": {
     "PRODUCTS": [
-         "doc1",
-         "doc12"
-      ],
-      
-      
-      
-    "Open Source Hardware": ["doc2"],
+      "doc1",
+      "doc12"
+    ],
+    "Open Source Hardware": [
+      "doc2",
+      "doc12",
+    ],
     "VAR Products": ["doc3"],
     "Application Reference":["doc10"]
    
