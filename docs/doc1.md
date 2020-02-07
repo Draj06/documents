@@ -1,10 +1,8 @@
-
 ---
 id: doc1
-title: PRODUCTS
+title:PRODUCTS
 sidebar_label: iMCU
 ---
-
 
 A collection of product information including datasheets, source files, application notes and related application info.
 ## iMCU
