@@ -1,15 +1,9 @@
   
 {
   "docs": {
-    "PRODUCTS": [
-      "doc1",
-      {
-        "type": "subcategory",
-        "label": "my example subcategory",
-        "w7500": ["doc12"]
-     
-      },
-      ],
+    "PRODUCTS":
+          ["doc1"],
+      
     "Open Source Hardware": ["doc2"],
     "VAR Products": ["doc3"],
     "Application Reference":["doc10"]
