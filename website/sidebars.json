@@ -3,6 +3,14 @@
   "docs": {
     "PRODUCTS": [
       "doc1"
+     {
+        "type": "subcategory",
+        "label": "my example subcategory",
+        "w7500": ["doc12"]
+     
+     
+        
+      }
      
      
     ],
