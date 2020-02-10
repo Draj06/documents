@@ -1,5 +1,5 @@
 ---
-id: doc5
+id: iomodule
 title:ioModule
 sidebar_label: ioModule
 ---
