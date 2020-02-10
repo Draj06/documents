@@ -11,20 +11,20 @@
       "Wi-Fi-Module",
       "Mbed-WIZwiki-Platform",
       "Open-Source-Hardware"
-    ],
+    //],
      
     
-    "Design Guide": [
-      "Hardware-Design-Guide",
-      "Package-Information",
-      "IR-Reflow-Profile",
-      "Eagle-CAD-Library-of-WIZnet-Products"
+    //"Design Guide": [
+      //"Hardware-Design-Guide",
+      //"Package-Information",
+      //"IR-Reflow-Profile",
+      //"Eagle-CAD-Library-of-WIZnet-Products"
       
-    ],
-    "VAR Products using WIZnet": [
-      "Ethernet-Shield",
-      "Wi-Fi-Shield",
-      "Third-party"
+   // ],
+    //"VAR Products using WIZnet": [
+     // "Ethernet-Shield",
+      //"Wi-Fi-Shield",
+     // "Third-party"
     ]
    
    
