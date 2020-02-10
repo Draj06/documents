@@ -1,5 +1,5 @@
 ---
-id: doc1
+id: iMCU
 title:PRODUCTS
 sidebar_label: iMCU
 ---
