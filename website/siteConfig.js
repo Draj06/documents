@@ -21,7 +21,7 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Wiznet India', // Title for your website.
+  title: 'Wiznet India Documentation', // Title for your website.
   tagline: 'Documentation',
   url: 'https://Wiznet.github.io', // Your website URL
   baseUrl: '/', // Base URL for your project */
