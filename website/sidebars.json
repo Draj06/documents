@@ -5,15 +5,15 @@
 {
   "docs": {
     "PRODUCTS": [
-      "imcu",
-      "pre-programmed-mcu",
-      "iethernet",
-      "s2e-module",
-      "iomodule",
-      "app-module",
-      "wi-fi-module",
-      "mbed-wizwiki-platform",
-      "open-source-hardware"
+      "doc1",
+      "doc2",
+      "doc3",
+      "doc4",
+      "doc5",
+      "doc6",
+      "doc7",
+      "doc8",
+      "doc9"
       
      ],
     "DESIGN GUIDE": [
