@@ -1,5 +1,5 @@
 ---
-id: iethernet
+id: doc3
 title:iEthernet
 sidebar_label: iEthernet
 ---
