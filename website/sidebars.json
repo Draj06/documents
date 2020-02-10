@@ -7,15 +7,15 @@
     "PRODUCTS": [
       "doc1",
       "doc2",
-      //"doc3"
-      "doc10"
+      "doc3"
+      
       
       
       
      
      
     ],
-    // "var products": ["doc10"]
+    "var products": ["doc10"]
     
   
     
