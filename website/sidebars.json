@@ -21,7 +21,13 @@
          "package-information",
          "ir-reflow-profile",
          "eagle-cad-library-of-wiznet-products"
-    ]
+    ],
+    
+    "VAR PRODUCTS USING WIZNET":[
+          "ethernet-shield",
+          "wifi-shield",
+          "third-party"
+      ]
     
   
     
