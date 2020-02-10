@@ -1,33 +1,17 @@
   
+
+
+
 {
   "docs": {
     "PRODUCTS": [
       "doc1"
-   //   "Pre-programmed-MCU",
-     // "iEthernet",
-     // "S2E-Module",
-   //   "ioModule",
-    //  "App-Module",
-  //    "Wi-Fi-Module",
-//      "Mbed-WIZwiki-Platform",
-     // "Open-Source-Hardware"
-    //],
      
-    
-    //"Design Guide": [
-      //"Hardware-Design-Guide",
-      //"Package-Information",
-      //"IR-Reflow-Profile",
-      //"Eagle-CAD-Library-of-WIZnet-Products"
-      
-   // ],
-    //"VAR Products using WIZnet": [
-     // "Ethernet-Shield",
-      //"Wi-Fi-Shield",
-     // "Third-party"
-    ]
-   
-   
+     
+    ],
+    "Open Source Hardware": ["doc2"],
+    "VAR Products": ["doc3"],
+    "Application Reference": ["doc10"]
   }
   
 }
