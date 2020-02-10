@@ -9,7 +9,7 @@ sidebar_label: iMCU
 
 ## Overview
 
-IOP is the Internet Offload Processor, the one-chip solution that integrates MCU and Hardwired TCP/IP cores.afdghhj
+IOP is the Internet Offload Processor, the one-chip solution that integrates MCU and Hardwired TCP/IP cores.
 
 ## Product Family
 
