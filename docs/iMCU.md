@@ -5,7 +5,7 @@ sidebar_label: iMCU
 ---
 ### **iMCU**
 
-**Ethernet MCU with Hardwired TCP/IP Core
+**Ethernet MCU with Hardwired TCP/IP Core**
 
 ## Overview
 
@@ -22,4 +22,4 @@ IOP is the Internet Offload Processor, the one-chip solution that integrates MCU
  
 ## Sidebar
 
-  * [iMCU sidebar](iMCU sidebar.md)
+  * [iMCU sidebar](iMCU-sidebar.md)
