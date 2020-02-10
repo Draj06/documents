@@ -1,5 +1,5 @@
 ---
-id: wi-fi-module
+id: doc7
 title: Wi-Fi Module
 sidebar_label: Wi-Fi Module
 ---
