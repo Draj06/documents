@@ -5,13 +5,14 @@
 {
   "docs": {
     "PRODUCTS": [
-      "doc1"
+      "doc1",
+      "doc2"
       
       
      
      
     ],
-    "Open Source Hardware": ["doc2"],
+    
     "VAR Products": ["doc3"]
     
   }
