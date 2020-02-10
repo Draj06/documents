@@ -16,7 +16,12 @@
       "doc9"
       
      ],
-    "var products": ["doc10"]
+    "DESIGN GUIDE": [
+         "hardware-design-guide",
+         "package-information",
+         "ir-reflow-profile",
+         "eagle-cad-library-of-wiznet-products"
+    ]
     
   
     
