@@ -1,5 +1,5 @@
 ---
-id: doc4
+id: Pre-programmed-MCU
 title:Pre-programed MCU
 sidebar_label: Pre-programmed MCU
 ---
