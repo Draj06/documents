@@ -21,9 +21,9 @@ These are stress ratings only and functional operation of the device at these co
 ![i2c bus ac waveform](../img/i2c_bus_ac_waveform.jpg)
 
 
-# Package Characteristics
-## Package dimention information
+## Package Characteristics
+### Package dimention information
 ![package dimention information](../img/package_dimention_information.png)
 
-## Package footprint information
+### Package footprint information
 ![package footprint information](../img/package_footprint_information.jpg)
