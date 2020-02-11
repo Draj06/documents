@@ -33,3 +33,10 @@ The **Getting Started** user's guide describes the installation of MDK,How to ma
 
  * [How to install KEIL](How-to-install-Keil-uVision-MDK-Lite-version.md)                
 ---
+ * [How to make KEIL new project for W7500](How-to-make-KEIL-new-project-for-W7500.md)
+---
+ * [How to use MDK for W7500 Peripherals Examples](How-to-use-MDK-for-W7500-Peripherals-Examples.md)
+---
+ * [How to use GCC for W7500 Peripherals Examples](How-to-use-GCC-for-W7500-Peripherals-Examples.md)
+---
+ * [How to use ISP tool](How-to-use-ISP-tool.md)
