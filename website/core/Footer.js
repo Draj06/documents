@@ -105,18 +105,13 @@ class Footer extends React.Component {
           </div>
         </section>
 
-        <a
-          href="'https://v2.convertapi.com/convert/web/to/pdf?secret=&download=attachment&url=' + encodeURI(window.location))"
-          target="_blank"
-          rel="noreferrer noopener"
-          className="fbOpenSource">
-          <img
-            src={`${this.props.config.baseUrl}img/oss_logo.png`}
-            alt="PDF"
-            width="170"
-            height="45"
-          />
-        </a>
+        <a href=""this.setAttribute('href', 'https://v2.convertapi.com/convert/web/to/pdf?secret=&download=attachment&url=' + encodeURI(window.location))">Project Chat</a>
+            <a
+              href="#"
+              target="_blank"
+              rel="noreferrer noopener">
+              Pdf
+            </a>
 
 
 
