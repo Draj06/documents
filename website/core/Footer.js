@@ -106,26 +106,19 @@ class Footer extends React.Component {
         </section>
 
         <a
-          href="https://opensource.facebook.com/"
+          href="this.setAttribute('href', 'https://v2.convertapi.com/convert/web/to/pdf?secret=&download=attachment&url=' + encodeURI(window.location))"
           target="_blank"
           rel="noreferrer noopener"
           className="fbOpenSource">
           <img
             src={`${this.props.config.baseUrl}img/oss_logo.png`}
-            alt="Facebook Open Source"
+            alt="PDF"
             width="170"
             height="45"
           />
         </a>
 
-<a onclick="this.setAttribute('href', 'https://v2.convertapi.com/convert/web/to/pdf?secret=&download=attachment&url=' + encodeURI(window.location))" href="#">
-    Save page as PDF
-    target="_blank"
-src={`${this.props.config.baseUrl}img/oss_logo.png`}
-            alt="PDF"
-            width="180"
-            height="55"
-</a>
+
 
         <section className="copyright">{this.props.config.copyright}</section>
       </footer>
