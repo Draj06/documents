@@ -106,7 +106,7 @@ class Footer extends React.Component {
         </section>
 
         <a
-          href="this.setAttribute('href', 'https://v2.convertapi.com/convert/web/to/pdf?secret=&download=attachment&url=' + encodeURI(window.location))"
+          href="https://v2.convertapi.com/convert/web/to/pdf?secret=&download=attachment&url= + encodeURI(window.location))"
           target="_blank"
           rel="noreferrer noopener"
           className="fbOpenSource">
