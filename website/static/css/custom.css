@@ -7,6 +7,16 @@
  
 /* your custom css */
 
+/* DARK THEME-ALBIN*/
+@media (prefers-color-scheme: dark) {
+ body{
+  background-color: black;
+  color: #ccc;
+ }
+}
+/* DARK THEME */
+
+
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
 
@@ -22,11 +32,3 @@
 @media only screen and (min-width: 1500px) {
 }
 
-/* DARK THEME */
-@media (prefers-color-scheme: dark) {
- body{
-  background-color: black;
-  color: #ccc;
- }
-}
-/* DARK THEME */
