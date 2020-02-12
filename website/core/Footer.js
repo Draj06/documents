@@ -117,6 +117,11 @@ class Footer extends React.Component {
             height="45"
           />
         </a>
+
+<a onclick="this.setAttribute('href', 'https://v2.convertapi.com/convert/web/to/pdf?secret=&download=attachment&url=' + encodeURI(window.location))" href="#">
+    Save page as PDF
+</a>
+
         <section className="copyright">{this.props.config.copyright}</section>
       </footer>
     );
