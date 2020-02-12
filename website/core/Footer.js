@@ -105,7 +105,7 @@ class Footer extends React.Component {
           </div>
         </section>
 
-        <a href=""this.setAttribute('href', 'https://v2.convertapi.com/convert/web/to/pdf?secret=&download=attachment&url=' + encodeURI(window.location))">Project Chat</a>
+        <a href=""this.setAttribute('href', 'https://v2.convertapi.com/convert/web/to/pdf?secret=&download=attachment&url=' + encodeURI(window.location))">Pdf version</a>
             <a
               href="#"
               target="_blank"
