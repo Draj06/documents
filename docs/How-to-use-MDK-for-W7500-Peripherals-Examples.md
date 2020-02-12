@@ -1,9 +1,9 @@
 (C) COPYRIGHT 2015 WIZnet  
-    * author : IOP Team 
-    * version : V1.0.0 
-    * date : 1-May-2015  
-    * brief : Description of How to use W7500 Peripheral example with Keil project.
-    ---
+   * author : IOP Team 
+   * version : V1.0.0 
+   * date : 1-May-2015  
+   * brief : Description of How to use W7500 Peripheral example with Keil project.
+---
 ## Introduction
 
 This application note guides user to use W7500 peripheral examples with Keil uVision compiler. Here we use TCP/IP core Offload Engine(TOE) among W7500 peripherals and loopback test example as sample.
@@ -18,7 +18,7 @@ You can download the library and example zip file at [link]. Download and abstra
     
 The extracted files consist of the CMSIS, driver and peripheral example. The W7500 standard peripheral library provides a rich set of examples covering the main features of each peripheral.
     
-    ![directory](../img/directory.jpg)
+   ![directory](../img/directory.jpg)
 
 ## Examples of WZTOE directory
     
