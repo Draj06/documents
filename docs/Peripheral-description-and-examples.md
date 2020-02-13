@@ -1,6 +1,6 @@
 |Peripheral|Example|
 |----------|-------|
-|[GPIO](/peripheral/General-Purpose-Input/Outputs(GPIO).md)|[Blink_LED](GPIO-Blink_LED-example.md)|
+|[GPIO](docs/peripheral/General-Purpose-InputOutputs(GPIO).md)|[Blink_LED](GPIO-Blink_LED-example.md)|
 |[ADC](Analog-to-Digital-Converter(ADC).md)|[Illumination RGB LED](ADC-example-(Illumination-sensor).md)|
 |[DMA](Direct-Memory-Access(DMA).md)|Memory to memory copy example|
 |[CRG](Clock-Reset-Generator(CRG).md)|                    |                         
