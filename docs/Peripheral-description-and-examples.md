@@ -1,7 +1,7 @@
 |Peripheral|Example|
 |----------|-------|
 |[GPIO](./peripheral/General-Purpose-InputOutputs(GPIO).md)|[Blink_LED](GPIO-Blink_LED-example.md)|
-|[ADC](Analog-to-Digital-Converter(ADC).md)|[Illumination RGB LED](ADC-example-(Illumination-sensor).md)|
+|[ADC](Analog-to-Digital-Converter(ADC).md)|[Illumination RGB LED](ADC-Illumination-example.md)|
 |[DMA](Direct-Memory-Access(DMA).md)|Memory to memory copy example|
 |[CRG](Clock-Reset-Generator(CRG).md)|                    |                         
 |[DualTimer](Dual-Timer.md)|[TimerRun](Dual-Timer-TimerRun-example.md)|
