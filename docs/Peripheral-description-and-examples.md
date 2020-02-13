@@ -1,9 +1,9 @@
 |Peripheral|Example|
 |----------|-------|
 |[GPIO](General-Purpose-InputOutputs.md)|[Blink_LED](GPIO-Blink_LED-example.md)|
-|[ADC](Analog-to-Digital-Converter(ADC).md)|[Illumination RGB LED](ADC-Illumination-example.md)|
-|[DMA](Direct-Memory-Access(DMA).md)|Memory to memory copy example|
-|[CRG](Clock-Reset-Generator(CRG).md)|                    |                         
+|[ADC](Analog-to-Digital-Converter.md)|[Illumination RGB LED](ADC-Illumination-example.md)|
+|[DMA](Direct-Memory-Access.md)|Memory to memory copy example|
+|[CRG](Clock-Reset-Generator.md)|                    |                         
 |[DualTimer](Dual-Timer.md)|[TimerRun](Dual-Timer-TimerRun-example.md)|
 |[EXTI](External-Interrupt(EXTI).md)|[LED_Toggle](EXTI-LED_Toggle-example.md),[Sleep](EXTI-Sleep-example.md)|
 |[Flash](.md)|[IAP Example](Flash_example-(IAP-example).md)|
