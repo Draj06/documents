@@ -42,7 +42,7 @@ const siteConfig = {
     {doc: 'doc4', label: 'API'},
     {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
- //   {href: 'https://github.com/Wiznet/documents', label: 'GitHub'},
+    {href: 'https://github.com/Wiznet/documents', label: 'GitHub'},
  //   {href: 'https://v2.convertapi.com/convert/web/to/pdf?secret=&download=attachment&url=' + encodeURI(window.location), label: 'PDF'},
   ],
 
