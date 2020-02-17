@@ -73,7 +73,7 @@ RC oscillator clock (RCLK) signal is generated from an internal 8MHz RC oscillat
 RC oscillator has the advantage of providing a clock source at low cost (no external components).
 However accuracy of RC oscillator is less than external crystal or ceramic resonator.
 
-   * Accuracy : 1% at T_A= 25℃ (User don’t need to calibration)
+   > Accuracy : 1% at T_A= 25℃ (User don’t need to calibration)
     
 ### PLL 
 
@@ -88,6 +88,7 @@ Each generated clock source can be selected among 3 clock source as independent 
   * PLL output clock (MCLK)
   * Internal 8MHz RC oscillator clock (RCLK)
   * External oscillator clock (8MHz ~ 24MHz) (OCLK)
+
 Each generated clock has own prescaler which can be select individually by each prescale value register
 
   * FCLK, ADCCLK, SSPCLK, UARTCLK : 1/1, 1/2, 1/4, 1/8
