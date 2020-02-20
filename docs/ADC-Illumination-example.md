@@ -16,7 +16,7 @@ THE PRESENT FIRMWARE WHICH IS FOR GUIDANCE ONLY AIMS AT PROVIDING CUSTOMERS WITH
 
 This example shows how to use ADC of W7500. In this example, ADC input is connected with illumination sensor. And control RGB led by illumination sensor value.
 
-In this example: - 1) Set the Alternate function of PAD for this example. - 2) Sensing analog value of Illumination sensor. - 3) If dark, ON the led, if not, OFF the led with GPIO control &nbsp;fhjgjhj
+In this example: - 1) Set the Alternate function of PAD for this example. - 2) Sensing analog value of Illumination sensor. - 3) If dark, ON the led, if not, OFF the led with GPIO control &nbsp; &nbsp; &nbsp; &nbsp;ann
 
 ---
 
