@@ -41,5 +41,5 @@ The below Figure show the flowchart of RNG operation.
 ------------------------------
 
 ## Peripheral_Examples
-- [Random Number Generation example](http://wizwiki.net/wiki/doku.php?id=products:w7500:peripherals:rng:rng_ex)
+- [Random Number Generation example](rng.md)
 
