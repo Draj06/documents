@@ -7,7 +7,7 @@
 |[DualTimer](Dual-Timer.md)|[TimerRun](Dual-Timer-TimerRun-example.md)|
 |[EXTI](External-Interrupt.md)|[LED_Toggle](EXTI-LED_Toggle-example.md),[Sleep](EXTI-Sleep-example.md)|
 |[Flash](Embedded-Flash-memory.md)|[IAP Example](Flash_example.md)|
-|[I2C](Inter-Integrated-Circuit.md)|[Default](i2c-read-example.md) , [EEPROM 24LS02](i2c-eeprom-communication.md) , [Temperature LM75](I2C-and-LM75-Temperature-Sensor-communication-example.md)|
+|[I2C](Inter-Integrated-Circuit.md)|[Default](i2c-read-example.md) , [EEPROM 24LS02](i2c-eeprom-communication.md) , [Temperature LM75](i2c-temperature.md)|
 |[PWM](Pulse-Width-Modulation(PWM).md)|[CaptureMode](PWM-Timer-Mode-example.md),[CounterMode](PWM-Counter-Mode-example.md)[DeadZoneGeneration](Dead-Zone-generation-example.md),[PWMOutput](PWM-Output-example.md),[TimerMode](PWM-Timer-Mode-example.md)|
 |[RNG](Random-number-generator(RNG).md)|[Random number generation example](RNG-example-(Random-number-generation-example).md)|
 |[SSP](Synchronous-Serial-Port(SSP).md)|[Loopback](SSP-Loopback-example.md) , [SD Card LED](SSP-SDcard_LED-example.md)|
