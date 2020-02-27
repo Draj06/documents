@@ -3,7 +3,7 @@ id: doc1
 title:PRODUCTS
 sidebar_label: iMCU
 ---
-  <a onclick="this.setAttribute('href', 'https://v2.convertapi.com/convert/web/to/pdf?secret=&download=attachment&url=' + encodeURI(window.location))" href="#">
+  <a onclick="this.setAttribute('href', 'https://v2.convertapi.com/convert/web/to/pdf?=attachment&url=' + encodeURI(window.location))" href="#">
             Save page as PDF
         </a>
 
