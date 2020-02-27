@@ -4,6 +4,31 @@ title:PRODUCTS
 sidebar_label: iMCU
 ---
 <a href="https://restpack.io/html2pdf/save-as-pdf" target="_blank">Save this page as PDF</a>
+<script id="finalReport" type="text/x-kendo-template">
+    <h3 class="report-header">stub title</h3>
+    <table class="report-table">
+        <tr>
+            <td>Report ID:</td>
+            <td>stub</td>
+        </tr>
+    </table>
+</script>
+
+<style>
+  .report-header {
+        font-style: italic;
+        font-weight: bold;
+        text-align: left;
+    }
+</style>
+
+<script id="main" type="text/javascript">
+    function generateReport() {
+        return xepOnline.Formatter.Format("finalReport", {
+            render: 'download', pageWidth: '216mm', pageHeight: '279mm'
+        });
+    }
+</script>
 
 ### **iMCU**
 
