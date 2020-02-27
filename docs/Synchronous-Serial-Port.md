@@ -28,20 +28,20 @@ The below Figure shows the SSP block diagram.
 
 ![](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:briefspec:ssp_block_diagram.jpg "Figure 1 SSP block diagram")
 
-###Clock prescaler
+### Clock prescaler
 
 When configured as a master, an internal prescaler is used to provide the serial output clock. The prescaler may be programmed through the SSPCPSR register to divide the SSPCLK by a factor of 2 to 254 in two steps. As the least significant bit of the SSPCPSR register is not used, division by an odd number is impossible and this ensures a symmetrical (equal mark space ratio) clock is generated.
 
 The output of this prescaler is further divided by a factor 1 to 256 through the programming of the SSPCR0 control register, to give a final master output clock.
 
 
-###Transmit FIFO
+### Transmit FIFO
 
 The common transmit FIFO is a 16-bit wide, 8-locations deep, First-In, First-Out (FIFO) memory buffer. CPU data written across the AMBA APB interface are stored in the buffer until it is read out by the transmit logic.
 
 When configured as a master or a slave, parallel data is written into the transmit FIFO prior to serial conversion and is transmitted to the attached slave or master through the SSPTXD pin.
 
-###Receive FIFO
+### Receive FIFO
 
 The common receive FIFO is a 16-bit wide, 8-locations deep, first-in, first-out memory buffer.
 Received data from the serial interface are stored in the buffer until it is read out by the CPU across the AMBA APB interface.
@@ -61,7 +61,7 @@ The peripheral supports both methods above.
 The transmit and receive dynamic data-flow interrupts, SSPTXINTR and SSPRXINTR, are separated from the status interrupts so that data can be read or written in response to the FIFO trigger levels.
 
 
-###<del>DMA interface
+### <del>DMA interface
 </del>
 <del>The PrimeCell SSP provides an interface to connect to the DMA controller. The PrimeCell SSP DMA control register, SSPDMACR controls the DMA operation of the PrimeCell SSP.
 </del>
@@ -145,7 +145,7 @@ The bit rate derived from the external SSPCLK requires the programming of the cl
 
 You can either prime the transmit FIFO, by writing up to eight 16-bit values when the PrimeCell SSP is disabled, or permit the transmit FIFO service request to interrupt the CPU. Once enabled, transmission or reception of data begins on the transmit, SSPTXD, and receive, SSPRXD, pins.
 
-###Clock ratios
+### Clock ratios
 
 There is a constraint on the ratio of the frequencies of PCLK to SSPCLK. The frequency of SSPCLK must be less or equal to that of PCLK. This ensures that control signals from the SSPCLK domain to the PCLK domain are guaranteed to get synchronized before one frame duration:  
 
@@ -186,7 +186,7 @@ The frame format is programmed through the FRF bits and the data word size throu
 Bit phase and polarity applicable to Motorola SPI format only are programmed through the SPH and SPO bits.
 
 
-###Programming the SSPCR1 Control Register
+### Programming the SSPCR1 Control Register
 
 The SSPCR1 register is used to:
 
@@ -231,7 +231,7 @@ For Texas Instruments synchronous serial frame format, the SSPFSSOUT pin is puls
 Unlike the full-duplex transmission of the other two frame formats, the National Semiconductor Microwire format uses a special master-slave messaging technique which operates at half-duplex. In this mode, an 8-bit control message is transmitted to the off-chip slave when a frame begins. During this transmit, the SSP receives no incoming data. After the message has been sent, the off-chip slave decodes it and responds with the requested data after waiting one serial clock after the last bit of the 8-bit control message has been sent. The returned data can be 4-16 bits in length making the total frame length in the range of 13-25 bits.
 
 
-###Texas Instruments synchronous serial frame format
+### Texas Instruments synchronous serial frame format
 
 The below Figure shows the Texas Instruments synchronous serial frame format for a single
 transmitted frame.
@@ -411,6 +411,6 @@ The below Figure shows how to set SPI mode.
 ------------------------------
 
 ## Peripheral_Examples
-- [SSP Loopback example](http://wizwiki.net/wiki/doku.php?id=products:w7500:peripherals:ssp:loopback)
+- [SSP Loopback example](SSP-Loopback-example.md)
 - [SSP SD Card LED example](http://wizwiki.net/wiki/doku.php?id=products:w7500:peripherals:ssp:sd_card_led)
 
