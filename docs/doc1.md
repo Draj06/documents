@@ -3,11 +3,8 @@ id: doc1
 title:PRODUCTS
 sidebar_label: iMCU
 ---
-  <script src="https://cdn.convertapi.com/button.js" data-secret=""></script>
-        <link rel="stylesheet" type="text/css" href="https://cdn.convertapi.com/button.css">
-        <button class="convertapi-btn">Save page as PDF</button>
+<a href="https://gitprint.com/Wiznet/documents/edit/master/docs/doc1.md">Save this page as PDF</a>
 
-### **iMCU**
 
 **Ethernet MCU with Hardwired TCP/IP Core**
 
