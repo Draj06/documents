@@ -3,8 +3,9 @@ id: doc1
 title:PRODUCTS
 sidebar_label: iMCU
 ---
-<a href="https://restpack.io/html2pdf/save-as-pdf?private=true" target="_blank" rel="nofollow">Save this page as PDF</a>
-<script async src="https://restpack.io/save-as-pdf.js"></script>
+  <a onclick="this.setAttribute('href', 'https://v2.convertapi.com/convert/web/to/pdf?secret=&download=attachment&url=' + encodeURI(window.location))" href="#">
+            Save page as PDF
+        </a>
 
 ### **iMCU**
 
