@@ -32,7 +32,7 @@ Refer to [Memory](https://doc.wiznet-cloud.com/docs/TCPIP-core-Offload-Engine#me
 
 ### Common register map
 
-Common Register Block configures the general information of TOE such as IP and MAC address. The below Table defines the offset address of registers in this block. Refer to [Memory](http://wizwiki.net/wiki/doku.php?id=products:w7500:peripherals:toe&do=edit#memory) for more details about each register.
+Common Register Block configures the general information of TOE such as IP and MAC address. The below Table defines the offset address of registers in this block. Refer to [Memory](https://doc.wiznet-cloud.com/docs/TCPIP-core-Offload-Engine#memory) for more details about each register.
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -146,7 +146,7 @@ Common Register Block configures the general information of TOE such as IP and M
 ### Socket register map
 
 TOE supports 8 Sockets for communication channel. Each Socket is controlled by Socket n Register (n = 0,…,7  ,where n is socket number). <Table 2> defines the 16bits Offset Address of registers in Socket n Register Block.
-Refer to [Memory](http://wizwiki.net/wiki/doku.php?id=products:w7500:peripherals:toe#memory) for more details about each register.
+Refer to [Memory](https://doc.wiznet-cloud.com/docs/TCPIP-core-Offload-Engine#memory) for more details about each register.
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -284,9 +284,9 @@ The 16KB RX memory allocation method is the same as the 16KB TX memory allocatio
 	
 When all Sn_RXBUF_SIZE registers have been configured, the Socket RX Buffer is allocated with the configured size in 16KB RX Memory and is assigned sequentially from Socket 0 to Socket 7. The physical memory address of the Socket RX Buffer is automatically determined in 16KB RX memory. Therefore, the total sum of Sn_RXBUF_SIZE should not exceed 16 or data reception error will occur. 
 
-For 16KB TX/RX memory allocation, refer to Sn_TXBUF_SIZE & Sn_RXBUF_SIZE in [Socket register map](http://wizwiki.net/wiki/doku.php?id=products:w7500:peripherals:toe#socket_register_map) . The Socket n TX Buffer Block allocated in 16KB TX memory is buffer for saving data to be transmitted by host. The 16bits Offset Address of Socket n TX Buffer Block has 64KB address space ranged from 0x0000 to 0xFFFF, and is configured with reference to ‘Socket n TX Write Pointer Register (Sn_TX_WR)’ & ‘Socket n TX Read Pointer Register(Sn_RX_RD)’. However, the 16bits Offset Address automatically converts into the physical address to be accessible in 16KB TX memory such as [The upper Figure](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:peripherals:toe_memory_map.jpg). Refer to [Socket register map](http://wizwiki.net/wiki/doku.php?id=products:w7500:peripherals:toe#socket_register_map) for Sn_TX_WR & Sn_TX_RD.
+For 16KB TX/RX memory allocation, refer to Sn_TXBUF_SIZE & Sn_RXBUF_SIZE in [Socket register map](https://doc.wiznet-cloud.com/docs/TCPIP-core-Offload-Engine#socket_register_map) . The Socket n TX Buffer Block allocated in 16KB TX memory is buffer for saving data to be transmitted by host. The 16bits Offset Address of Socket n TX Buffer Block has 64KB address space ranged from 0x0000 to 0xFFFF, and is configured with reference to ‘Socket n TX Write Pointer Register (Sn_TX_WR)’ & ‘Socket n TX Read Pointer Register(Sn_RX_RD)’. However, the 16bits Offset Address automatically converts into the physical address to be accessible in 16KB TX memory such as [The upper Figure](https://doc.wiznet-cloud.com/docs/TCPIP-core-Offload-Engine_memory_map.jpg). Refer to [Socket register map](https://doc.wiznet-cloud.com/docs/TCPIP-core-Offload-Engine#socket_register_map) for Sn_TX_WR & Sn_TX_RD.
 
-The Socket n RX Buffer Block allocated in 16KB RX memory is buffer for saving the received data through the Ethernet. The 16bits Offset Address of Socket n RX Buffer Block has 64KB address space ranged from 0x0000 to 0xFFFF, and is configured with reference to ‘Socket n RX RD Pointer Register (Sn_RX_RD)’ & ‘Socket n RX Write Pointer Register (Sn_RX_WR)’. However, the 16bits Offset Address automatically converts into the physical address to be accessible in 16KB RX memory such as [The upper Figure](http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w7500:peripherals:toe_memory_map.jpg). Refer to [Socket register map](http://wizwiki.net/wiki/doku.php?id=products:w7500:peripherals:toe#socket_register_map) for Sn_RX_RD & Sn_RX_WR.
+The Socket n RX Buffer Block allocated in 16KB RX memory is buffer for saving the received data through the Ethernet. The 16bits Offset Address of Socket n RX Buffer Block has 64KB address space ranged from 0x0000 to 0xFFFF, and is configured with reference to ‘Socket n RX RD Pointer Register (Sn_RX_RD)’ & ‘Socket n RX Write Pointer Register (Sn_RX_WR)’. However, the 16bits Offset Address automatically converts into the physical address to be accessible in 16KB RX memory such as [The upper Figure](https://doc.wiznet-cloud.com/docs/TCPIP-core-Offload-Engine_memory_map.jpg). Refer to [Socket register map](https://doc.wiznet-cloud.com/docs/TCPIP-core-Offload-Engine#socket_register_map) for Sn_RX_RD & Sn_RX_WR.
 
 ------------------------------
 
