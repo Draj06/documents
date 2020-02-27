@@ -15,5 +15,5 @@
 |[UART](Universal-Asynchronous-Receive-Transmit.md)|[Interrupt](UART-Interrupts-example.md),[Polling](UART-Polling-example.md),[Printf](UART-Printf-example.md),[Uart Hardware Flow Control](UART-HardwareControl-example.md)|
 |[WDT](Watchdog-Timer.md)|[WDTReset](WDTReset-example.md)|
 |[SysTick](System-tick-timer.md)|[Delay example](System-tick-timer-example.md)|
-|[AFC](Alternate-Function-Controller(AFC).md)| |
+|[AFC](Alternate-Function-Controller.md)| |
 |[PADCON](Pad-Controller(PADCON).md)| |
