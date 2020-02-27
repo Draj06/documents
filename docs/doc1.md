@@ -3,7 +3,7 @@ id: doc1
 title:PRODUCTS
 sidebar_label: iMCU
 ---
-<a href="https://gitprint.com/Wiznet/documents/edit/master/docs/doc1.md">Save this page as PDF</a>
+<a href="https://gitprint.com/Wiznet/documents/master/docs/doc1.md">Save this page as PDF</a>
 
 
 **Ethernet MCU with Hardwired TCP/IP Core**
