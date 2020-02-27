@@ -94,4 +94,4 @@ The below Figure shows how software should use the RTS/CTR.
 - [UART Interrupt example](UART-Interrupts-example.md)
 - [UART Polling example](UART-Polling-example.md)
 - [UART Printf example](UART-Printf-example.md)
-- [UART Hardware FlowControl example](http://wizwiki.net/wiki/doku.php?id=products:w7500:peripherals:uart:flowcontrol)
+- [UART Hardware FlowControl example](UART-HardwareControl-example.md)
