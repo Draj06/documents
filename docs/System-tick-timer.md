@@ -27,5 +27,5 @@ timer can be used for :
 ------------------------------
 
 ## Peripheral_Examples
-- [Delay example](http://wizwiki.net/wiki/doku.php?id=products:w7500:peripherals:systick:delay)
+- [Delay example](System-tick-timer-example.md)
 
