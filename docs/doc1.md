@@ -3,7 +3,7 @@ id: doc1
 title:PRODUCTS
 sidebar_label: iMCU
 ---
-<a href="https://pdfmyurl.com/api?license=yourlicensekey&url=">Save this page as PDF</a>
+<button id="cmd">generate PDF</button>
 ### **iMCU**
 
 **Ethernet MCU with Hardwired TCP/IP Core**
