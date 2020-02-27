@@ -412,5 +412,5 @@ The below Figure shows how to set SPI mode.
 
 ## Peripheral_Examples
 - [SSP Loopback example](SSP-Loopback-example.md)
-- [SSP SD Card LED example](http://wizwiki.net/wiki/doku.php?id=products:w7500:peripherals:ssp:sd_card_led)
+- [SSP SD Card LED example](SSP-SDcard_LED-example.md)
 
