@@ -282,6 +282,6 @@ The Socket n RX Buffer Block allocated in 16KB RX memory is buffer for saving th
 
 ## Peripheral_Examples
 - [TCP/UDP Loopback](Loopback-test-for-TCPIP-Offload-Engine-example.md)
-- [DHCP Client](http://wizwiki.net/wiki/doku.php?id=products:w7500:peripherals:toe:dhcpclient)
+- [DHCP Client](DHCPClient-for-TCPIP-Offload-Engine-example.md)
 - [DNS Client](http://wizwiki.net/wiki/doku.php?id=products:w7500:peripherals:toe:dnsclient)
 
