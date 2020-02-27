@@ -6,8 +6,8 @@
  
 **Download the latest version**
 
-Korean : 
-{{products:w6100:w6100_ds_v104k.pdf|W6100 DataSheet v1.0.4}}\\
+Korean : [pdf](documents/website/static/w6100_ds_v104k.pdf)
+
 English : 
 {{products:w6100:w6100_ds_v104e.pdf|W6100 DataSheet v1.0.4}}\\
 
