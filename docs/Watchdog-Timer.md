@@ -1,7 +1,7 @@
-<markdown>
-# Watchdog Timer(WDT)
 
-##Introduction
+
+
+## Introduction
 
 The watchdog is based on a 32-bit down-counter that is initialized from the Reload Register, WDTLoad. The watchdog generates a regular interrupt depending on a programmed value. The counter decreases by one on each positive clock edge of watchdog clock.
 
@@ -18,7 +18,7 @@ The watchdog applies a reset to a system in the event of a software failure to p
   *	The watchdog timer clock(WDTCLK) and system clock(PCLK) are synchronous.
 
 
-##Functional description
+## Functional description
 
 ### Clock
 
@@ -43,5 +43,5 @@ The below Figure shows Watchdog timer operation flow diagram
 ------------------------------
 
 ## Peripheral_Examples
-- [WDTReset example](http://wizwiki.net/wiki/doku.php?id=products:w7500:peripherals:wdt:wdtreset)
+- [WDTReset example](WDTReset-example.md)
 
