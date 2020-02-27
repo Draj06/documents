@@ -45,7 +45,7 @@ Release Version
 
 
 ## Peripheral description and examples
-- [Peripherals](http://wizwiki.net/wiki/doku.php?id=products:w7500:peripherals)
+- [Peripherals](Peripheral-description-and-examples.md)
 
 
 
