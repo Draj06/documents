@@ -16,4 +16,4 @@
 |[WDT](Watchdog-Timer.md)|[WDTReset](WDTReset-example.md)|
 |[SysTick](System-tick-timer.md)|[Delay example](System-tick-timer-example.md)|
 |[AFC](Alternate-Function-Controller.md)| |
-|[PADCON](Pad-Controller(PADCON).md)| |
+|[PADCON](Pad-Controller.md)| |
