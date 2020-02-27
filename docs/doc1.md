@@ -5,13 +5,6 @@ sidebar_label: iMCU
 ---
 <a href="https://restpack.io/html2pdf/save-as-pdf" target="_blank">Save this page as PDF</a>
 
-
-<a href="http://pdf-ace.com/pdfme" style="margin-left: 1em; margin-right: 1em;" target="_blank"><img alt="Save as PDF" height="27" src="
-
-" width="120" /></a>
-
-
-
 ### **iMCU**
 
 **Ethernet MCU with Hardwired TCP/IP Core**
