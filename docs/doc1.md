@@ -3,9 +3,9 @@ id: doc1
 title:PRODUCTS
 sidebar_label: iMCU
 ---
-  <a onclick="this.setAttribute('href', 'https://v2.convertapi.com/convert/web/to/pdf?=attachment&url=' + encodeURI(window.location))" href="#">
-            Save page as PDF
-        </a>
+  <script src="https://cdn.convertapi.com/button.js" data-secret=""></script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.convertapi.com/button.css">
+        <button class="convertapi-btn">Save page as PDF</button>
 
 ### **iMCU**
 
