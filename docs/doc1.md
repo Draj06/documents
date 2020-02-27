@@ -3,7 +3,14 @@ id: doc1
 title:PRODUCTS
 sidebar_label: iMCU
 ---
-<button id="cmd">generate PDF</button>
+ <div id="pdfdiv">
+     <h3 style="color:green;">WWW.SANWEBCORNER.COM</h3>
+<img src="404.png">
+    <p>a pararaph</p>
+</div>
+<div id="editor"></div>
+<button id="pdfview">Download PDF</button>
+
 ### **iMCU**
 
 **Ethernet MCU with Hardwired TCP/IP Core**
