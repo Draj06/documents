@@ -9,7 +9,7 @@
 Korean : [pdf](https://github.com/Wiznet/documents/blob/master/docs/PDF/w6100_ds_v104k.pdf)
 
 English : 
-{{products:w6100:w6100_ds_v104e.pdf|W6100 DataSheet v1.0.4}}\\
+{{products
 
 </WRAP>
 
