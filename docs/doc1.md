@@ -3,7 +3,7 @@ id: doc1
 title:PRODUCTS
 sidebar_label: iMCU
 ---
-<a href="https://pdfmyurl.com/saveaspdf">Save this page as PDF</a>
+<a href="https://pdfmyurl.com/saveaspdf?inline">Save this page as PDF</a>
 ### **iMCU**
 
 **Ethernet MCU with Hardwired TCP/IP Core**
