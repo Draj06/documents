@@ -87,7 +87,7 @@ wiz_NetInfo gWIZNETINFO = { .mac = {0x00,0x08,0xdc,0x57,0x57,0x20},
 <!-- end list -->
 
 1.  Connect to Board 
-      - Using [Hercules test program](Hercules_test_program.md)  or others , try to connect to             board with xxx.xxx.xxx.xxx listen port 5000
+      - Using [Hercules test program](TCP_and_UDP_loopback_test.md)  or others , try to connect to board with xxx.xxx.xxx.xxx listen             port 5000
 2.  When connected
       - send data to board
       - check wheather the loopbak data is same to what it sent before
