@@ -3,7 +3,7 @@ id: doc1
 title:PRODUCTS
 sidebar_label: iMCU
 ---
-<a href="https://url-to-pdf-api.herokuapp.com/api/render?target="_blank">> save this page as PDF</a>
+<a href="https://url-to-pdf-api.herokuapp.com/api/render?target="blank"> save this page as PDF</a>
 
   
 
