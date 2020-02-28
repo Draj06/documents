@@ -3,7 +3,9 @@ id: doc1
 title:PRODUCTS
 sidebar_label: iMCU
 ---
-<a href="https://url-to-pdf-api.herokuapp.com/api/render?url=location.url" target="_blank">Save this page as PDF</a>
+library("rmarkdown")
+render("mydoc.md", output_format = "pdf_document")
+<a href="pdf_document">Save this page as PDF</a>
   
 
 **Ethernet MCU with Hardwired TCP/IP Core**
