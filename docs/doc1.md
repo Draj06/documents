@@ -3,31 +3,8 @@ id: doc1
 title:PRODUCTS
 sidebar_label: iMCU
 ---
-<a href="https://url-to-pdf-api.herokuapp.com/api/render?url=location.href=true">Save this page as PDF</a>
+<a href="https://url-to-pdf-api.herokuapp.com/api/render?location.href=true">Save this page as PDF</a>
 
-<!DOCTYPE html> 
-<html> 
-  
-<head> 
-    <title>Get current URL using jQuery?</title> 
-</head> 
-  
-<body> 
-    <h1 style="color: green">GeeksForGeeks</h1> 
-    <b>Get current URL using jQuery?</b> 
-    <p>Click on the button below to get the current page URL</p> 
-    <p> The current URL is: <span class="output"></span></p> 
-    <button id="btn">Get current </button> 
-    <script src= 
-            "https://code.jquery.com/jquery-3.3.1.min.js"> 
-  </script> 
-    <script> 
-        $('#btn').click(function() { 
-            currLoc = $(location).attr('href'); 
-            document.querySelector('.output').textContent = currLoc; 
-        }); 
-    </script> 
-</body> 
   
 
 **Ethernet MCU with Hardwired TCP/IP Core**
