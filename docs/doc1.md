@@ -3,7 +3,7 @@ id: doc1
 title:PRODUCTS
 sidebar_label: iMCU
 ---
-<a href="https://url-to-pdf-api.herokuapp.com/api/render?url=document.url">Save this page as PDF</a>
+<a href="https://url-to-pdf-api.herokuapp.com/api/render?url=location.href">Save this page as PDF</a>
 
 
 **Ethernet MCU with Hardwired TCP/IP Core**
