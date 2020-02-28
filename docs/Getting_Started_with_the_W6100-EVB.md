@@ -112,7 +112,7 @@ Download the Libraries and Application example source code for W6100-EVB
 
 #### Flash programming via UART
 
-1. **How to use W6100-EVB ISP mode**
+1.**How to use W6100-EVB ISP mode**
 
 Press the 'Boot0' push button switch on board until turn on the board after reset or power supply.
 
