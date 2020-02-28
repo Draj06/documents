@@ -3,9 +3,8 @@ id: doc1
 title:PRODUCTS
 sidebar_label: iMCU
 ---
-library("rmarkdown")
-render("mydoc.md", output_format = "pdf_document")
-<a href="pdf_document">Save this page as PDF</a>
+
+<a href="href.url">Save this page as PDF</a>
   
 
 **Ethernet MCU with Hardwired TCP/IP Core**
