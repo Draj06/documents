@@ -41,7 +41,7 @@ Please connect with any terminal to that serial port with
  If you need detailed figures, please refer to the below link.  
 ![](/products/w5500/w5500_evb/icons/link.png) 
 
-[TCP and UDP loopback test](/osh/cookie/loopback_test#TCP%20and%20UDP%20loopback%20test)
+[TCP and UDP loopback test](TCP_and_UDP_loopback_test.md)
 
 
 The loopback example runs with a TCP session and a UDP session.
@@ -87,4 +87,53 @@ wiz_NetInfo gWIZNETINFO = { .mac = {0x00,0x08,0xdc,0x57,0x57,0x20},
 <!-- end list -->
 
 1.  Connect to Board 
-      - Using \[\[osh
+      - Using [Hercules test program](Hercules_test_program.md)  or others , try to connect to             board with xxx.xxx.xxx.xxx listen port 5000
+2.  When connected
+      - send data to board
+      - check wheather the loopbak data is same to what it sent before
+3.  When failed to connect
+      - Check link status
+      - Check ping test
+      - Check network config
+      - Check the security program as virus vaccines and fire-wall on your PC.
+
+-------------------------------
+
+### Firmware
+
+W6100-EVB firmware project based on TrueSTUDIO. For more details about TrueSTUDIO, please refer to below link.
+
+Download the Libraries and Application example source code for W6100-EVB
+           🌍https://github.com/Wiznet/
+           
+---------------------------
+
+### How to uploading to firmware
+
+#### Flash programming via UART
+
+1. **How to use W6100-EVB ISP mode**
+
+Press the 'Boot0' push button switch on board until turn on the board after reset or power supply.
+
+2.**Run the STMicroelectronics Flash loader demonstrator**
+
+STMicroelectronics Flash loader demonstrator is a program to perform in-system programming (ISP) of the MCU flash via its UART.
+ 🌍['ST Flash lodaer demonstrator' download page](http://www.st.com/en/development-tools/flasher-stm32.html)
+ 
+ 3.**Tool settings**
+ 
+ Set the settings on main window of Flash loader demonstrator program. It is easy to set along with each step.
+The figure below shows the default configuration for W6100-EVB.
+
+4.**Click to 'Next' button**
+
+refer to below pictures If you do not go to the next page in flash loader demonstrator, users try again this action. 'Press the 'Boot0' push button switch on board until turn on the board after reset or power supply.'
+
+5.**Run the new program**
+
+After finish to flash programming and board reset, The MCU do running the program
+
+When the running to loopback program, as below picture serial debug message print out.
+
+
