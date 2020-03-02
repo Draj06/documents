@@ -1,7 +1,7 @@
 
 {
-  "overview"
   "docs": {
+  "overview": ["overview"]
     "PRODUCTS": [
       "iMCU",
       {
