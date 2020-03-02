@@ -1,7 +1,6 @@
 ---
 id: doc1
 title:PRODUCTS
-sidebar_label: iMCU
 ---
 
 <a href="document.url">Save this page as PDF</a>
