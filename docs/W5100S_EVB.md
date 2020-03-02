@@ -143,11 +143,11 @@ Eclipse](w5100s_evb_make_a_new_projects_eclipse.md)
 **Datasheet**
 
   - [W5100S Datasheet]()
-  - [STMicroelectronics STM32F103VCT6 Datasheet](http://www.st.com/en/microcontrollers/stm32f103vc.html)
-  - [Virtual COM Port:CP2104 COM Port Datasheet](https://www.silabs.com/products/interface/usb-bridges/classic-usb-bridges/device.cp2104)
-  - [SINGLE INVERTER GATE SN74LVC1G04DBVR Datasheet](http://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf)
-  - [Octal D-type transparent latch; 3-state 74HC573PW Datasheet](https://assets.nexperia.com/documents/data-sheet/74HC_HCT573.pdf)
-  - [Quad 1-of-2 multiplexer 74CBTLV3257PW Datasheet](https://www.nxp.com/docs/en/data-sheet/74CBTLV3257.pdf)
+  - 🌎[STMicroelectronics STM32F103VCT6 Datasheet](http://www.st.com/en/microcontrollers/stm32f103vc.html)
+  - 🌎[Virtual COM Port:CP2104 COM Port Datasheet](https://www.silabs.com/products/interface/usb-bridges/classic-usb-bridges/device.cp2104)
+  - 🌎[SINGLE INVERTER GATE SN74LVC1G04DBVR Datasheet](http://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf)
+  - 🌎[Octal D-type transparent latch; 3-state 74HC573PW Datasheet](https://assets.nexperia.com/documents/data-sheet/74HC_HCT573.pdf)
+  - 🌎[Quad 1-of-2 multiplexer 74CBTLV3257PW Datasheet](https://www.nxp.com/docs/en/data-sheet/74CBTLV3257.pdf)
 
 **Schematic & Part list**
 
