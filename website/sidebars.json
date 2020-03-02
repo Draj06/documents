@@ -1,11 +1,8 @@
-  
-
-
 
 {
   "docs": {
     "PRODUCTS": [
-      "",
+      "iMCU",
       {
         "type": "subcategory",
         "label": "iMCU",
