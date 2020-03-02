@@ -1,9 +1,3 @@
----
-id: doc1
----
-
-
-  
 # PRODUCTS
 
 **Ethernet MCU with Hardwired TCP/IP Core**
