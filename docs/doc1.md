@@ -1,3 +1,8 @@
+---
+id: doc1
+sidebar_label: iMCU
+---
+
 # PRODUCTS
 
 **Ethernet MCU with Hardwired TCP/IP Core**
