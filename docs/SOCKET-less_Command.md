@@ -1,5 +1,5 @@
 # Overview
-\<markdown\>
+
 
 **SLC(SOCKET-less Command)** can handle ARP and PING Request Packet
 without SOCKET Open. If ARP and PING Reply Packet are received within
