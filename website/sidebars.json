@@ -5,10 +5,15 @@
 {
   "docs": {
     "PRODUCTS": [
-      "doc1": [
+      "doc1",
+      {
+        "type": "subcategory",
+        "label":"iMCU",
+        "ids":[
              "W7500",
              "W7500P"
-              ],
+              ]
+      },
       "doc2",
       "doc3",
       "doc4",
