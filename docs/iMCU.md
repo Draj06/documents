@@ -1,6 +1,4 @@
 
-
-# iMCU
 **Ethernet MCU with Hardwired TCP/IP Core**
 
 ## Overview
