@@ -3,7 +3,7 @@ id: doc1
 title:PRODUCTS
 ---
 
-<a href="document.url">Save this page as PDF</a>
+
   
 
 **Ethernet MCU with Hardwired TCP/IP Core**
