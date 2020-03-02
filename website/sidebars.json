@@ -8,7 +8,6 @@
       "doc1",
       {
         "type": "subcategory",
-        "label":"iMCU",
         "ids":[
              "W7500",
              "W7500P"
