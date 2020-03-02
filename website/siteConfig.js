@@ -23,7 +23,7 @@ const users = [
 const siteConfig = {
   //title: 'Wiznet India', // Title for your website.
   tagline: 'Documentation',
-  url: 'https://Wiznet.github.io', // Your website URL
+  url: 'https://doc.wiznet-cloud.com/', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
