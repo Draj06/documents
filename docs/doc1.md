@@ -1,4 +1,3 @@
-
 ---
 id: doc1
 title: iMCU
