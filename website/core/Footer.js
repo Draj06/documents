@@ -36,7 +36,7 @@ class Footer extends React.Component {
             )}
           </a>
           <div>
-            <h5>Docs</h5>
+            <h5>DOCUMENTATION</h5>
             <a href={this.docUrl('doc1.html', this.props.language)}>
               Products
             </a>
@@ -106,12 +106,12 @@ class Footer extends React.Component {
         </section>
 
         <a
-          href="https://opensource.facebook.com/"
+          href="https://doc.wiznet-cloud.com/"
           target="_blank"
           rel="noreferrer noopener"
-          className="fbOpenSource">
+          className="WizDoc">
           <img
-            src={`${this.props.config.baseUrl}img/oss_logo.png`}
+            src={`${this.props.config.baseUrl}img/wiznet-logo.ico`}
             alt="Facebook Open Source"
             width="170"
             height="45"
