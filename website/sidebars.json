@@ -5,7 +5,7 @@
     "PRODUCTS": [
     "iMCU",
       {
-        "type": "subcategory 2",
+        "type": "secondSidebar",
         "ids":[
              "W7500",
              "W7500P"
