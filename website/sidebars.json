@@ -2,11 +2,16 @@
 {
   "docs": {
     "OVERVIEW": ["overview"],
-    "PRODUCTS":
-      {
-       "OVERVIEW": ["overview"],
     "PRODUCTS": [
       "iMCU",
+      {
+        "type": "subcategory",
+        "label": "iMCU",
+        "ids":[
+             "W7500",
+             "W7500P"
+              ]
+      },
       "doc2",
       "doc3",
       "doc4",
@@ -16,10 +21,19 @@
       "doc8",
       "doc9"
       
-     ]
-      },
-      
+     ],
+    "DESIGN GUIDE": [
+         "hardware-design-guide",
+         "package-information",
+         "ir-reflow-profile",
+         "eagle-cad-library-of-wiznet-products"
+    ],
     
+    "VAR PRODUCTS USING WIZNET":[
+          "ethernet-shield",
+          "wifi-shield",
+          "third-party"
+      ]
     
   
     
