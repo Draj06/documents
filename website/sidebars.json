@@ -2,8 +2,8 @@
 {
   "docs": {
     "OVERVIEW": ["overview"],
-    "PRODUCTS": [
-      "iMCU",
+    "PRODUCTS":  [
+      "iMCU":
       {
         "type": "subcategory",
         "label": "iMCU",
@@ -12,6 +12,7 @@
              "W7500P"
               ]
       },
+      
       "doc2",
       "doc3",
       "doc4",
