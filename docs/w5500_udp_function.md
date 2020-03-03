@@ -151,7 +151,7 @@ Check the reception of UDP data from destination. User can also check
 for received data via TCP communication. It is strongly recommended to
 use the second method because of the same reasoning from TCP. Please
 refer to the “TCP SERVER” section. 🌎[TCP
-SERVER]()
+SERVER](w5500_tcp_function.md)
 
 ``` c
 First method :
