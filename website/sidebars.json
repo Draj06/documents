@@ -12,7 +12,7 @@
              "W7500P"
               ]
       },
-],
+
       "doc2",
       "doc3",
       "doc4",
@@ -23,6 +23,7 @@
       "doc9"
       
      ],
+  ],
     "DESIGN GUIDE": [
          "hardware-design-guide",
          "package-information",
