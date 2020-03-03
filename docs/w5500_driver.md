@@ -4,10 +4,10 @@ The ioLibrary means **"Internet Offload Library"** for WIZnet chip. It
 includes **drivers** and **application protocols**. There are three
 kinds of libraries explained on this page The first two drivers
 (ioLibrary\_BSD, ioLibrary) can be used for
-[W5500](w5500.md) application designs. These will be
+[W5500](W5500.md) application designs. These will be
 updated continuously. The former BSD-Type driver will not be updated, as
 it is only meant to be a migration help from W5200 to
-[W5500](w5500.md).
+[W5500](W5500.md).
 
 -----
 
