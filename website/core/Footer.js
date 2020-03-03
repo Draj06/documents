@@ -94,7 +94,7 @@ class Footer extends React.Component {
                 <div
                   className="fb-like"
                   data-href={this.props.config.url}
-                  data-colorscheme="dark"
+                  data-colorscheme="light"
                   data-layout="standard"
                   data-share="true"
                   data-width="225"
