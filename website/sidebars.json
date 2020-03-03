@@ -3,9 +3,9 @@
   "docs": {
     "OVERVIEW": ["overview"],
     "PRODUCTS": [
-      "iMCU",
+      
       {
-        "type": "subcategory",
+        "type": "subcategory 2",
         "label": "iMCU",
         "ids":[
              "W7500",
