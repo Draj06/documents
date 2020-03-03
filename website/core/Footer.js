@@ -112,7 +112,7 @@ class Footer extends React.Component {
           className="WizDoc">
           <img
             src={`${this.props.config.baseUrl}img/wiznet-logo.ico`}
-            alt="Facebook Open Source"
+            alt="wiznet-logo"
             width="170"
             height="45"
           />
