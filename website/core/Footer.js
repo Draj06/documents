@@ -113,8 +113,8 @@ class Footer extends React.Component {
           <img
             src={`${this.props.config.baseUrl}img/wiznet-logo.ico`}
             alt="wiznet-logo"
-            width="170"
-            height="45"
+            // width="170"
+            // height="45"
           />
         </a>
         <section className="copyright">{this.props.config.copyright}</section>
