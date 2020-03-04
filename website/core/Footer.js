@@ -30,8 +30,8 @@ class Footer extends React.Component {
               <img
                 src={this.props.config.baseUrl + this.props.config.footerIcon}
                 alt={this.props.config.title}
-                width="138"
-                height="58"
+                width="170"
+                height="45"
               />
             )}
           </a>
@@ -94,7 +94,7 @@ class Footer extends React.Component {
                 <div
                   className="fb-like"
                   data-href={this.props.config.url}
-                  data-colorscheme="red"
+                  data-colorscheme="dark"
                   data-layout="standard"
                   data-share="true"
                   data-width="225"
@@ -104,7 +104,11 @@ class Footer extends React.Component {
             )}
           </div>
         </section>
-
+//Footer Color
+footer#footer {
+    background: none repeat scroll 0 0 #f0078D7;
+}
+//Footer Color
         <a
           href="https://doc.wiznet-cloud.com/"
           target="_blank"
