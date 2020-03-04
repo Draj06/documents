@@ -60,7 +60,7 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} />
+        <Logo img_src={`${baseUrl}../img/wiznet-logo.ico`} />
         <div className="inner">
           <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
           <PromoSection>
@@ -156,7 +156,7 @@ class Index extends React.Component {
           },
           {
             content: 'The content of my second feature',
-            image: `${baseUrl}../img/Mickey_Mouse-Test.png`,
+            image: `${baseUrl}../img/wiznet-logo.ico`,
             imageAlign: 'top',
             title: 'Feature Two',
           },
