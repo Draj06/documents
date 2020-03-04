@@ -150,13 +150,13 @@ class Index extends React.Component {
         {[
           {
             content: 'Brija',
-            image: `${baseUrl}img/undraw_react.svg`,
+            image: `${baseUrl}../img/Mickey_Mouse-Test.png`,
             imageAlign: 'top',
             title: 'Feature One',
           },
           {
             content: 'The content of my second feature',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
+            image: `${baseUrl}../img/Mickey_Mouse-Test.png`,
             imageAlign: 'top',
             title: 'Feature Two',
           },
