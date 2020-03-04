@@ -22,7 +22,7 @@ interfaces.
 ### 1-Port S2E Module Products
 
   - [W7500S2E-R1](w7500s2e-r1.md)
-  - [W5500S2E-S1](/w5500s2e-s1.md)
+  - [W5500S2E-S1](w5500s2e-s1.md)
   - [W5500S2E-Z1](w5500s2e-z1.md)
 
 <!-- end list -->
