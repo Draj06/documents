@@ -52,7 +52,7 @@ const siteConfig = {
   /* path to images for header/footer */
   headerIcon: 'img/wiznet-logo.ico',
   footerIcon: 'img/wiznet-logo.ico',
-  favicon: 'img/wiznet-logo.ico',
+  favicon: '../img/Mickey_Mouse-Test.png',
 
   /* Colors for website */
   colors: {
