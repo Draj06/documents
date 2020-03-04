@@ -104,11 +104,7 @@ class Footer extends React.Component {
             )}
           </div>
         </section>
-//Footer Color
-footer#footer {
-    background: none repeat scroll 0 0 #f0078D7;
-}
-//Footer Color
+
         <a
           href="https://doc.wiznet-cloud.com/"
           target="_blank"
