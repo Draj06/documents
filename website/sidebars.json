@@ -6,7 +6,7 @@
       "iMCU",
       {
         "type": "subcategory",
-        "label": "iMCU Product Family",
+        //"label": "iMCU Product Family",
         "ids":[
              "W7500",
              "W7500P",
