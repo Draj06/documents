@@ -10,7 +10,7 @@ WIZnet MCU products which **S2E firmware is programmed on**
 
 ## Product Family
 
- * [W7500(P)-S2E](W7500(P)-S2E.md):W7500 / W7500P pre-programmed MCU products (S2E Firmware)
+ * [W7500(P)-S2E](W7500-S2E.md):W7500 / W7500P pre-programmed MCU products (S2E Firmware)
 
 ## Etc 
 
