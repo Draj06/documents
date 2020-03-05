@@ -19,12 +19,15 @@ W7500 is in RUN mode after a system or power reset. There are two low power mode
 The device features two low power modes:
    * Sleep mode
    * Deep Sleep mode
+   
 Additionally, the power consumption can be reducing by following method:
+
    * User can slow down the system clocks
    * User can block the clocks to the peripherals while they are unused.
    
 ### Sleep mode vs. Deep sleep mode
 W7500 has two kinds of sleep modes. One is Sleep mode and the other is Deep sleep mode. Two of them are almost the same except the clock gated peripherals kinds.
+
 
 
 ### Peripheral clock gating
