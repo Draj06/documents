@@ -5,10 +5,8 @@ W7500 contains interrupt service and event service as below
    * One event signal
 ## Interrupt assignments
 
-|           |                   |                                        |                |
-| --------- | ----------------- | -------------------------------------- | -------------- |
 | IRQ/NMI   | Device            | Description                            | Address        |
-| \-------- | \---------------- | \------------------------------------- | \------------- |
+| --------- | ----------------- | -------------------------------------- | -------------- |
 | NMI       | Watchdog timer    | Watchdog timer interrupt               | 0x0000\_0008   |
 | IRQ\[0\]  | SSP0              | SSP0 global interrupt                  | 0x0000\_0040   |
 | IRQ\[1\]  | SSP1              | SSP1 global interrupt                  | 0x0000\_0044   |
