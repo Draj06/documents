@@ -1,7 +1,7 @@
 
 {
   "docs": {
-    "Overview": ["WIZnet_Document"],
+    "WIZNET": ["WIZnet_Document"],
     "PRODUCTS": [
       "iMCU",
       {
