@@ -44,8 +44,6 @@
 | 33  | PA\_05 | IO   | SSEL0       | GPIO1\_5  | SCL1        | PWM2/CAP2 |
 | 34  | PA\_06 | IO   | SCLK0       | GPIO1\_6  | SDA1        | PWM3/CAP3 |
 | 35  | PA\_07 | IO   | MISO0       | GPIO1\_7  | U\_CTS1     | PWM4/CAP4 |
-|    |           |     |               |           |           |           |
-| -- | --------- | --- | ------------- | --------- | --------- | --------- |
 | 36 | PA\_08    | IO  | MOSI0         | GPIO1\_8  | U\_RTS1   | PWM5/CAP5 |
 | 37 | PA\_09    | IO  | SCL0          | GPIO1\_9  | U\_TXD1   | PWM6/CAP6 |
 | 38 | PA\_10    | IO  | SDA0          | GPIO1\_10 | U\_RXD1   | PWM7/CAP7 |
