@@ -1,10 +1,10 @@
 (C) COPYRIGHT 2015 WIZnet Co.,Ltd.
 
-    * file : EXTI/Sleep/readme.md
-    * author : IOP Team
-    * version : V1.0.0
-    * date : 1-May-2015
-    * brief : Description of the EXTI Sleep example.
+   * file : EXTI/Sleep/readme.md
+   * author : IOP Team
+   * version : V1.0.0
+   * date : 1-May-2015
+   * brief : Description of the EXTI Sleep example.
     
 ---
 
@@ -26,26 +26,26 @@ If WIZwiki W7500 is used, when button is pressed, Wake-up!! but, Button has to b
 
 ### Directory contents
 
-    * EXTI/Sleep/main.c (Main program)
-    * EXTI/Sleep/W7500x_it.c (Interrupt Handlers)
-    * EXTI/Sleep/W7500x_it.h (Interrupt Handlers Header file)
-    * EXTI/Sleep/W7500x_conf.h (Library Configuration file)
-    * EXTI/Sleep/MDK/W7500x_EXTI_Sleep.uvproj (MDK Project file)
-    * EXTI/Sleep/GCC/Makefile (GCC Make file)
+   * EXTI/Sleep/main.c (Main program)
+   * EXTI/Sleep/W7500x_it.c (Interrupt Handlers)
+   * EXTI/Sleep/W7500x_it.h (Interrupt Handlers Header file)
+   * EXTI/Sleep/W7500x_conf.h (Library Configuration file)
+   * EXTI/Sleep/MDK/W7500x_EXTI_Sleep.uvproj (MDK Project file)
+   * EXTI/Sleep/GCC/Makefile (GCC Make file)
     
 ---
 
 ### Hardware and Software environment
 
-    * This example has been tested with WIZnet WIZwiki W7500 platform.
-    * To select the WIZnet WIZwiki platform used to run the example.
+   * This example has been tested with WIZnet WIZwiki W7500 platform.
+   * To select the WIZnet WIZwiki platform used to run the example.
 
-    * WIZwiki W7500 Set-up
+ * WIZwiki W7500 Set-up
 
-      * Use LED(B) connected to PC_05 pin.
-      * Use EXTI connected to PA_00 pin.
-      * In order to use the LED to be changed from PAD_AF0 to PAD_AF1.
-      * Button has to be configured separately.
+    * Use LED(B) connected to PC_05 pin.
+    * Use EXTI connected to PA_00 pin.
+    * In order to use the LED to be changed from PAD_AF0 to PAD_AF1.
+    * Button has to be configured separately.
 
 ---
 
@@ -53,11 +53,11 @@ If WIZwiki W7500 is used, when button is pressed, Wake-up!! but, Button has to b
 
 In order to make the program work, you must do the following :
 
-      * Open your preferred toolchain.
-      * Rebuild all files and load your image into target memory.
-      * Run the example.
-      * WIZwiki W7500 where the Flash memory density ranges 128Kbytes.
-      * If you have any questions, please use the forum site.
+   * Open your preferred toolchain.
+   * Rebuild all files and load your image into target memory.
+   * Run the example.
+   * WIZwiki W7500 where the Flash memory density ranges 128Kbytes.
+   * If you have any questions, please use the forum site.
          * "http://wizwiki.net/forum/"
 
                          © COPYRIGHT 2015 WIZnet Co.,Ltd.
